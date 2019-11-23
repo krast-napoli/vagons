@@ -1,6 +1,8 @@
 [
     {
-        "ordNumber": 1,
+        "pk": 1,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94003894",
         "trainIndex": "035004766035601",
         "trainNumber": "9999",
@@ -9,9 +11,12 @@
         "invoiceNumber": "ЭО560089",
         "stateId": 34,
         "lastOperDt": "2019-08-11T20:51:00.000Z"
+        }
     },
     {
-        "ordNumber": 2,
+        "pk": 2,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94139292",
         "trainIndex": "035004766035601",
         "trainNumber": "9999",
@@ -20,9 +25,12 @@
         "invoiceNumber": "ЭО560089",
         "stateId": 34,
         "lastOperDt": "2019-08-12T20:55:00.000Z"
+        }
     },
     {
-        "ordNumber": 3,
+        "pk": 3,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94189768",
         "trainIndex": null,
         "trainNumber": null,
@@ -31,9 +39,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 3,
         "lastOperDt": null
+        }
     },
     {
-        "ordNumber": 4,
+        "pk": 4,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94950078",
         "trainIndex": null,
         "trainNumber": null,
@@ -42,9 +53,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 3,
         "lastOperDt": null
+        }
     },
     {
-        "ordNumber": 5,
+        "pk": 5,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "54964036",
         "trainIndex": null,
         "trainNumber": null,
@@ -53,9 +67,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 3,
         "lastOperDt": null
+        }
     },
     {
-        "ordNumber": 6,
+        "pk": 6,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94949708",
         "trainIndex": null,
         "trainNumber": null,
@@ -64,9 +81,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 3,
         "lastOperDt": null
+        }
     },
     {
-        "ordNumber": 7,
+        "pk": 7,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94395381",
         "trainIndex": null,
         "trainNumber": null,
@@ -75,9 +95,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 3,
         "lastOperDt": null
+        }
     },
     {
-        "ordNumber": 8,
+        "pk": 8,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94420957",
         "trainIndex": null,
         "trainNumber": null,
@@ -86,9 +109,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 35,
         "lastOperDt": "2019-08-14T10:04:00.000Z"
+        }
     },
     {
-        "ordNumber": 9,
+        "pk": 9,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94693793",
         "trainIndex": null,
         "trainNumber": null,
@@ -97,9 +123,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 35,
         "lastOperDt": "2019-08-14T10:04:00.000Z"
+        }
     },
     {
-        "ordNumber": 10,
+        "pk": 10,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "59910554",
         "trainIndex": null,
         "trainNumber": null,
@@ -108,9 +137,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 35,
         "lastOperDt": "2019-08-14T14:22:00.000Z"
+        }
     },
     {
-        "ordNumber": 11,
+        "pk": 11,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94949773",
         "trainIndex": null,
         "trainNumber": null,
@@ -119,9 +151,12 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 35,
         "lastOperDt": "2019-07-28T00:30:00.000Z"
+        }
     },
     {
-        "ordNumber": 12,
+        "pk": 12,
+        "model": "main.Trains",
+        "fields": {
         "carNumber": "94968922",
         "trainIndex": null,
         "trainNumber": null,
@@ -130,5 +165,6 @@
         "invoiceNumber": "ЭО730743",
         "stateId": 35,
         "lastOperDt": "2019-08-14T10:04:00.000Z"
+        }
     }
 ]
