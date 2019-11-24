@@ -1,6 +1,8 @@
 {% extends "main/wrapper.html" %}
+{% load django_tables2 %}
 
 {% block content %}
+  {% render_table table%}
   <table>
     {{ form }}
   </table>

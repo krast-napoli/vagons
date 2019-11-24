@@ -1,6 +1,7 @@
 import django_tables2 as tables
-from .models import Person
+from .models import Trains
 
-class PersonTable(tables.Table):
+class TrainsTable(tables.Table):
     class Meta:    
-        model = Person
+        model = Trains
+        attrs = {"td": {"contenteditable": "true"}}
