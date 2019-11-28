@@ -4,3 +4,4 @@ from .models import Trains
 class UserForm(ModelForm):
     class Meta:
         model = Trains
+        exclude = ['OrdNumber']

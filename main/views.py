@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .forms import UserForm
 from .models import Trains
-from .tables import PersonTable
+from .tables import TrainsTable
 from django.http import HttpResponseRedirect
 
 #def index (request):

@@ -6,4 +6,13 @@
   <table>
     {{ form }}
   </table>
+
+<form method="POST" action="create/">
+        {% csrf_token %}
+        <p>
+            <label>Input CarNumber</label><br>
+            <input type="number" name="CarNumber" />
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
 {% endblock %}
