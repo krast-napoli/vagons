@@ -1,18 +1,36 @@
 {% extends "main/wrapper.html" %}
-{% load django_tables2 %}
 
 {% block content %}
-  {% render_table table%}
+
   <table>
-    {{ form }}
+  <tr>
+    <td>OrdNumber</td>
+    <td>CarNumber</td>
+    <td>TrainIndex</td>
+    <td>TrainNumber</td>
+    <td>CarStatus</td>
+    <td>InvoiceId</td>
+    <td>InvoiceNumber</td>
+    <td>StateId</td>
+    <td>LastOperDt</td>
+  </tr>
+  <form action="/main/" method="post">
+    {% csrf_token %}
+      {% for spot in form %}
+        <tr>
+          <td>{{ spot.ordNumber }}</td>
+          <td>{{ spot.carNumber }}</td>
+          <td>{{ spot.trainIndex }}</td>
+          <td>{{ spot.trainNumber }}</td>
+          <td>{{ spot.carStatus }}</td>
+          <td>{{ spot.invoiceId }}</td>
+          <td>{{ spot.invoiceNumber }}</td>
+          <td>{{ spot.stateId }}</td>
+          <td>{{ spot.lastOperDt }}</td>
+        </tr>
+      {% endfor %}
+    <input type="submit" value="Сохранить" >
+  </form>
   </table>
 
-<form method="POST" action="create/">
-        {% csrf_token %}
-        <p>
-            <label>Input CarNumber</label><br>
-            <input type="number" name="CarNumber" />
-        </p>
-        <input type="submit" value="Сохранить" >
-    </form>
 {% endblock %}
